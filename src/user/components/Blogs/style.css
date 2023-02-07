@@ -1,0 +1,9 @@
+.eachItem {
+    width: 30%;
+}
+.input-group .form-control{
+    height: auto !important;
+}
+.cursorPointer {
+    cursor: pointer;
+}

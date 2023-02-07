@@ -1,0 +1,36 @@
+@import "~antd/dist/antd.css";
+@import url("./customAntd.css");
+
+/*** Ant design custom css ***/
+thead[class*="ant-table-thead"] th {
+  background-color: #f6f4f2 !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+.dropdown-item img {
+  margin-right: 3px;
+}
+
+.closeBtn {
+  margin-left: 0 !important;
+}
+
+.blogTitle {
+  box-shadow: none !important;
+  outline: none;
+  border: none;
+}
+
+.user-blog-wrapper .mx-5 {
+  padding: 0 200px;
+}
+
+.btn-sach.disable {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

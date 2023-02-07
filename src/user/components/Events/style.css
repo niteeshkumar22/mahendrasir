@@ -1,0 +1,13 @@
+.register-btn {
+    background-color: var(--theme-orange) !important;
+    border-color: var(--theme-orange) !important;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}

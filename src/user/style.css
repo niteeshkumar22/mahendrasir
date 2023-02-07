@@ -1,0 +1,9 @@
+/*** Note: Please import all the common module css here only and not in any specific component */
+@import url('../static/user/fonts/bootstrap-icons/bootstrap-icons.css');
+@import url('../static/common/vendor/bootstrap/css/bootstrap.min.css');
+@import url('../static/user/vendor/animate/animate.min.css');
+@import url('../static/user/vendor/aos/css/aos.min.css');
+@import url('../static/user/vendor/owlCarousel/css/owl.theme.default.min.css');
+@import url('../static/user/vendor/owlCarousel/css/owl.carousel.min.css');
+@import url("../static/user/css/user-style.css");
+@import url("../static/user/css/responsive.css");

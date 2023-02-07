@@ -1,0 +1,85 @@
+
+.file-upload-item {
+  border: 1px solid lightgray;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.file-upload-item p {
+  margin: 3px 0;
+}
+
+.ant-input {
+  height: 45px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+
+
+.profile-data-wrap {
+  background: #FFFFFF;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+}
+
+.profile-data-wrap .profile-data {
+  padding: 20px 20px 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.profile-data-wrap .profile-data:last-child {
+  border-bottom: none;
+}
+
+.profile-data-wrap .profile-data h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  margin-bottom: 0px;
+}
+
+.profile-data-wrap .profile-data p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--theme-dark-2);
+}
+
+ul.sach-pills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.sach-pills li {
+  margin-right: 10px;
+  min-height: 34px;
+  margin-block: 5px;
+}
+
+ul.sach-pills li span {
+  background: #F7F4F2;
+  border: 1px solid #DFD6E5;
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--theme-dark-2);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+ul.sach-pills li span:hover {
+  border-color: var(--theme-orange);
+  color: var(--theme-orange);
+  background-color: var(--theme-orange-08);
+}
+
+.avatar-uploader .ant-upload.ant-upload-select-picture-card  {
+  border: none;
+  background-color: transparent;
+}

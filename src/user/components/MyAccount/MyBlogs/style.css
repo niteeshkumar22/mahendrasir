@@ -1,0 +1,231 @@
+.writeblog-wrp {
+    /* display: flex; */
+    min-height: 70vh;
+}
+
+
+.user-blog-wrapper {
+    min-height: 70vh;
+}
+
+.blog-table-content {
+    margin-right: 10px;
+    border-right: 1px solid lightgray;
+}
+
+.content__item {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.blog-header {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 30px;
+}
+
+/* ========================================= */
+
+.writeblog-wrp {
+    border-top: 1px solid var(--border-color);
+}
+
+.blog-header .page-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: var(--theme-dark);
+}
+
+.blog-header .btn-sach {
+    padding: 6px 12px;
+}
+
+.blog-header .btn-sach:is(.btn-sach-linear, .btn-sach-linear-theme) {
+    padding: 5px 12px;
+}
+
+.blog-header .btn-sach svg {
+    height: 20px;
+    width: 20px;
+}
+
+.blog-header .btn-sach span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.page-header .dvdr {
+    width: 2px;
+    height: 18px;
+    display: inline-block;
+    background: var(--border-color);
+}
+
+.page-header .dvdr.w2 {
+    width: 2px;
+}
+
+.close-btn-wrp {
+    border: 1px solid var(--border-color);
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    margin-left: 15px;
+    float: right;
+}
+
+.fancy-text-editor .ql-editor {
+    min-height: calc(50vh) !important;
+}
+
+.fancy-text-editor .ql-editor::-webkit-scrollbar {
+    display: none;
+}
+
+.fancy-text-editor .ql-editor {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.preview-blog-wrp {
+    overflow-y: auto;
+    height: 1000px;
+    font-size: 20px;
+}
+
+.preview-blog-wrp::-webkit-scrollbar {
+    width: 6px;
+}
+
+.preview-blog-wrp::-webkit-scrollbar-track {
+    background: 0 0;
+    background-color: transparent;
+    position: absolute
+}
+
+.preview-blog-wrp::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: var(--border-color)
+}
+
+.preview-blog-wrp:last-child {
+    border-bottom: none;
+}
+
+/* ========================================= */
+
+
+/* ========== Text to Speach (Blog) Start ========== */
+.textToSpeach-cont {
+    width: 360px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 16px;
+    filter: drop-shadow(-9px -12px 42px rgba(238, 108, 77, 0.1));
+    position: fixed;
+    right: 3vh;
+    bottom: 3vh;
+    user-select: none;
+}
+
+.textToSpeach-wrp {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.close-player {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: var(--theme-dark);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translate(50%, -50%);
+    cursor: pointer;
+}
+
+.player-timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.player-timer>span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--theme-dark);
+}
+
+.player-timer .player-progress {
+    height: 6px;
+    width: 100%;
+    background: rgba(36, 35, 35, 0.16);
+    border-radius: 10px;
+}
+
+.player-timer .player-progress .progress-ico {
+    position: relative;
+    height: 100%;
+    background-color: var(--theme-orange);
+    display: block;
+    border-radius: 10px;
+}
+
+.player-timer .player-progress .progress-ico::after {
+    content: '';
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0 0 0 3px var(--theme-orange);
+}
+
+.player-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player-btns img {
+    cursor: pointer;
+}
+
+.player-btns img:not(.play-pause) {
+    width: 24px;
+    height: 24px;
+}
+
+.player-btns img.play-pause {
+    width: 45px;
+    height: 45px;
+}
+
+/* ========== Text to Speach (Blog) End ========== */

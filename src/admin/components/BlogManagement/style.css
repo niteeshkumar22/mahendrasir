@@ -1,0 +1,23 @@
+.writeblog-wrp {
+    /* border-top: 1px solid var(--border-color); */
+    /* display: flex; */
+    min-height: 70vh;
+}
+.blog-table-content {
+    margin-right: 10px;
+    border-right: 1px solid lightgray;
+}
+.previewBlog {
+    
+}
+.content__item {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.blog-header {
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 30px;
+}
