@@ -1,0 +1,112 @@
+/* ========== Event Ticket Start ========== */
+.viewTicketModal .ant-modal-body {
+    padding: 1rem;
+}
+
+.ticket-body {
+    border-radius: 16px;
+}
+
+.ticket-body .ticket-wrp {
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 15px;
+    margin: 15px 0px 0px;
+}
+
+.ticket-body .ticket-wrp .ticket-pill {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 14px 0px;
+    margin: 0px;
+    gap: 8px;
+}
+
+.ticket-body .ticket-wrp .ticket-pill span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--theme-orange);
+    background: rgba(238, 108, 77, 0.08);
+    border-radius: 200px;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+.ticket-body .ticket-wrp .event-head {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    padding: 8px 0px 10px;
+    color: var(--theme-dark);
+}
+
+.ticket-body .ticket-wrp ul.event-info {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 14px 0px;
+    margin: 0px;
+    gap: 15px;
+}
+
+.ticket-body .ticket-wrp ul.event-info li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ticket-body .ticket-wrp ul.event-info li img {
+    width: 24px;
+    height: 24px;
+}
+
+.ticket-body .ticket-wrp ul.event-info li b {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--theme-dark);
+    display: block;
+    white-space: nowrap;
+}
+
+.eventHost {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.eventHost img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.eventHost span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--theme-dark);
+}
+
+.attendeeInfo {
+    border-top: 2px dashed var(--border-color);
+    border-bottom: 2px dashed var(--border-color);
+    padding: 15px 0px;
+    margin: 10px 0px;
+}
+
+.evntInfoTTL {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--theme-dark-2);
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* ========== Event Ticket End ========== */

@@ -1,0 +1,25 @@
+.review-cont {
+  background: #F7F4F2;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--theme-dark-2);
+  padding: 15px 20px;
+  margin-block: 25px;
+}
+.review-cont {
+  background: #F7F4F2;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--theme-dark-2);
+  padding: 15px 20px;
+  margin-block: 25px;
+}
+.comment-wrp .commentReviewer {
+  display: flex;
+  align-items: center;
+  display: flex;
+}

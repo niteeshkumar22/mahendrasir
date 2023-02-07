@@ -1,0 +1,65 @@
+
+.testimonial-staus {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0px;
+}
+
+.testimonial-staus label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--theme-dark-2);
+}
+
+.testimonial-staus span {
+    padding: 4px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.testimonial-staus span.success {
+    background-color: var(--s-success);
+}
+
+.testimonial-staus span.warning {
+    background-color: var(--s-warning);
+}
+
+.testimonial-staus span.danger {
+    background-color: var(--s-danger);
+}
+
+.status-btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--theme-dark) !important;
+    padding: 2px 10px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.status-btn._active, .status-btn._published {
+    background: var(--active);
+}
+
+.status-btn._in-active {
+    background: var(--inactive);
+}
+
+.status-btn._pending, .status-btn._draft {
+    background: var(--pending);
+}
+
+.status-btn._new {
+    background: var(--new);
+}

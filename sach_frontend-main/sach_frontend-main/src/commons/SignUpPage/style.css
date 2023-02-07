@@ -1,0 +1,19 @@
+.pass-wrapper {
+  position: relative;
+  display: flex;
+  margin-bottom: 14px;
+}
+
+.pass-wrapper i {
+  position: absolute;
+  top: 34%;
+  right: 6%;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.btn-disabled {
+  opacity: 0.5;
+}

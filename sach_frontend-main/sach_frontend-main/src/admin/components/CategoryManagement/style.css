@@ -1,0 +1,292 @@
+.acc-style {
+    color: black;
+    border: none
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: transparent !important;
+    box-shadow: none !important
+}
+
+.subCat-Style:hover {
+    color: var(--theme-orange);
+    text-decoration: none;
+    cursor: pointer;
+}
+.selected-subCat {
+    color: var(--theme-orange);
+}
+.action-style {
+    cursor: pointer;
+}
+
+.cat-button:hover {
+    background-color: var(--theme-orange-08);
+}
+
+.accordion-button-style {
+    width: auto !important;
+}
+.editable-category {
+    background: #fff;
+    /* height: 100%; */
+    border-radius: 4px;
+    padding: 0px 8px;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+}
+
+
+.uploadThumb {
+    height: 100px;
+    border: 2px dashed #DFD6E5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 2px 0px 0px;
+}
+
+.uploadThumb span {
+    padding-left: 5px;
+}
+
+.videoPrivacy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.videoPrivacy .d-flex {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.videoPrivacy .d-flex h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+.videoPrivacy .d-flex span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--theme-dark-2);
+}
+
+/* ======================================== */
+.form-switch.sach-form-switch {
+    padding-left: 0em;
+    padding-right: 2.5em;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.form-switch.sach-form-switch .form-check-label {
+    user-select: none;
+    margin: 0px 10px 0px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    color: var(--theme-dark-2);
+}
+
+.form-switch.sach-form-switch .form-check-input {
+    float: right;
+    position: relative;
+    top: 0px;
+    right: -30px;
+    width: 40px;
+    height: 24px;
+    margin-top: 0px;
+    outline: none;
+    padding: 0px;
+}
+
+/* ======================================== */
+/* ================= Comment Section Start ================= */
+.videoDtls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 16px;
+    height: 100px;
+    background: var(--thead-bg);
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.videoDtls span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--theme-dark-2);
+}
+
+.videoDtls h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-bottom: 0;
+}
+
+.videoDtls i {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--theme-dark-2);
+    padding-left: 30px;
+}
+
+.videoDtls i::before {
+    position: absolute;
+    content: '';
+    background: url(../../icons/play-btn-1.svg) no-repeat center;
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: -2px;
+}
+
+.no-comment {
+    padding: 80px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-comment img {
+    height: 150px;
+    width: auto;
+}
+
+.no-comment h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin: 0px;
+}
+
+.no-comment span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--theme-dark-2);
+}
+
+.video-comment-wrp {
+    padding: 8px;
+    margin: 20px 0px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.video-comment-wrp .video-cmt-data {
+    background: #fff;
+    padding: 8px;
+}
+
+.video-comment-wrp .comment-data {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 20px 0px;
+}
+
+.video-comment-wrp .reply-wrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.video-comment-wrp .reply-wrp :is(.user-reply, .admin-reply) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-comment-wrp .reply-wrp :is(.user-reply, .admin-reply) :is(.like-com, .reply-del) {
+    margin: 0px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.video-comment-wrp .reply-wrp :is(.user-reply, .admin-reply) :is(.like-com, .reply-del):first-child {
+    margin-left: 0px;
+}
+
+.video-comment-wrp .reply-wrp :is(.user-reply, .admin-reply) :is(.like-com, .reply-del):last-child {
+    margin-right: 0px;
+}
+
+.video-comment-wrp .reply-wrp :is(.user-reply, .admin-reply) :is(.like-com, .reply-del) img {
+    width: 20px;
+    height: 20px;
+    user-select: none;
+}
+
+.video-comment-wrp .reply-wrp :is(.user-reply, .admin-reply) :is(.like-com, .reply-del) span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--theme-dark-2);
+    padding-left: 8px;
+    user-select: none;
+}
+
+.video-comment-wrp .reply-wrp :is(.user-reply, .admin-reply) :is(.like-com, .reply-del) span {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.video-comment-wrp .userName.dropdown-toggle::after {
+    display: none;
+}
+
+.video-comment-wrp .reply-sctn {
+    padding-top: 20px;
+    margin: 20px 0px 15px;
+    border-top: 1px solid var(--border-color);
+}
+
+.video-comment-wrp .reply-sctn .reply-user {
+    background-color: var(--thead-bg);
+    padding: 8px 8px 8px 30px;
+}
+
+.video-comment-wrp .reply-sctn .reply-user .video-cmt-data {
+    border-left: 4px solid var(--border-color);
+}
+
+.video-comment-wrp .reply-sctn .reply-admin {
+    border-left: 4px solid var(--border-color);
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.dyntube-iframe-container {
+    /* margin-top: 5px; */
+    height: 100%;
+}
+.video-modal {
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,115 @@
+div.sidebar-2-tabs>div.ttl {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--theme-dark-2);
+    margin-block: 15px;
+}
+
+div.sidebar-2-tabs>div[role="tab"]:hover {
+    color: var(--theme-orange);
+    border: 1px solid var(--theme-orange-08);
+}
+
+div.sidebar-2-tabs>div[role="tab"]:hover svg {
+    fill: var(--theme-orange);
+}
+
+div.sidebar-2-tabs>div[role="tab"] {
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+div.sidebar-2-tabs>div.active[role="tab"] {
+    background: var(--theme-orange-08);
+    color: var(--theme-orange);
+}
+
+div.sidebar-2-tabs>div.active[role="tab"] svg {
+    fill: var(--theme-orange);
+}
+
+div.sidebar-2-tabs>div[role="tab"] svg {
+    fill: #4D4354;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    transition: 400ms;
+}
+
+div.sidebar-2-tabs>div[role="tab"] span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sub-page-title h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-bottom: 0px;
+}
+
+.sub-page-title-2 h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    margin-bottom: 0px;
+}
+
+.sub-page-title>span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--theme-dark-2);
+}
+
+.pass-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--theme-orange);
+}
+
+.pass-sub-title,
+.pass-instructions {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0px;
+    color: var(--theme-dark-2);
+}
+
+.pass-instructions {
+    padding-left: 10px;
+}
+
+.pass-instructions li::before {
+    content: '•';
+    position: relative;
+    right: 5px;
+}
+
+.passToggle {
+    position: absolute;
+    bottom: 12px;
+    right: 30px;
+    user-select: none;
+}
+
+.passToggle svg {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.hidePass {
+    display: none;
+}

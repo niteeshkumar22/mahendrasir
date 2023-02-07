@@ -1,0 +1,106 @@
+@import url("../../user/style.css");
+
+/* ==================== Login Page Start ==================== */
+.login-container {
+    max-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    padding: 25px;
+}
+
+.login-container .img-wrap {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(32, 20, 41, 0) -22.72%, #201429 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container .login-btn {
+    width: 100%;
+    justify-content: center;
+    font-weight: 700;
+    padding-block: 16px;
+    border-style: solid;
+}
+
+.details {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--theme-dark-2);
+    text-align: center;
+    margin-block: 15px;
+}
+
+p.details span {
+    cursor: pointer;
+    color: var(--theme-orange);
+    font-size: 16px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pass-wrapper {
+    position: relative;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.pass-wrapper i {
+    position: absolute;
+    top: 34%;
+    right: 6%;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.btn-hover {
+    color: var(--theme-orange);
+    border-color: var(--theme-orange);
+}
+
+.signUp-modal {
+    width: 100% !important;
+    min-width: 100%;
+    max-width: initial;
+}
+
+.signUp-modal .ant-modal-content {
+    margin: 0px !important;
+    border-radius: 0px;
+    overflow: initial;
+}
+
+.ant-modal-centered {
+    /* overflow: initial; */
+}
+
+.signUp-modal .ant-modal-content .ant-modal-body {
+    padding: 0px;
+}
+
+.signUp-modal .ant-modal-content .ant-modal-body .login-modal {
+    height: auto;
+    max-width: initial;
+}
+
+.password-inst {
+    margin-bottom: 20px;
+}
+
+.password-inst b {
+    font-weight: 600;
+}
+
+.password-inst ul {
+    padding-left: 20px;
+}
